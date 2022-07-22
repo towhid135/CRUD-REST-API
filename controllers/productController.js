@@ -42,7 +42,7 @@ const product_create = async (req,res) =>{
         console.log("product saving error ", err)
     })
 }
-//update product
+//update a single product
 const product_update = async (req,res) =>{
     try{
 
